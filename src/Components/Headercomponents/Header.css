@@ -21,7 +21,6 @@ header {
 .logo {
   width: 200px;
   height: 100px;
-  /* margin-left: 50px; */
 }
 .bliss-log {
   width: 100%;
@@ -51,25 +50,22 @@ a:hover {
   border-radius: 10px;
   background-color: #3b82f6;
 }
-.nav-bar-menu {
-  background: transparent;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background: #ffff;
-  transition: all 0.3s ease-in-out;
-}
+
 @media (min-width: 500px) and (max-width: 853px) {
+  nav ul {
+    padding: 10px;
+  }
 }
 @media (min-width: 300px) and (max-width: 450px) {
   header {
     flex-direction: column;
     height: 200px;
+  }
+  nav ul {
+    padding: 10px;
+  }
+  nav {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }

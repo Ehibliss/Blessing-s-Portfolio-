@@ -48,9 +48,8 @@ function Project() {
               <div className="project-content">
                 <h2>Grid Painting</h2>
                 <p>
-                  A collaborative frontend project built with fellow students at
-                  TS Academy. It showcases teamwork, GitHub workflow, and
-                  structured UI development.
+                  A Grid painting layout that showcase structure and creativity.
+                  Created with just HTML & CSS.
                 </p>
                 <div className="card-info">
                   <div className="tech-stack">
