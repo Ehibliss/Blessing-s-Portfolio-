@@ -1,5 +1,6 @@
 #Contact-section {
-  background-color: #0f172a;
+  background-color: #1f1f1f;
+  color: #ffffff;
   width: 100%;
   margin: 0;
 }
@@ -27,7 +28,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #111827;
+  background-color: #161616;
   border-radius: 16px;
   padding: 30px;
   border: 1px solid #ffffff1a;
@@ -40,13 +41,10 @@
   margin-bottom: 20px;
 }
 
-.Contact-left p {
-  color: #9ca3af;
-}
 .input {
   width: 100%;
   padding: 20px 10px;
-  background: #020617;
+  background: #0d0d0d;
   border: 1px solid #ffffff1a;
   border-radius: 8px;
   color: #f9fafb;
@@ -55,7 +53,7 @@
 }
 
 .input:focus {
-  border-color: #3b82f6;
+  border-color: #7c3aed;
   outline: none;
 }
 .message {
@@ -67,25 +65,25 @@
   height: 25px;
 }
 .button {
-  background: #3b82f6;
-  color: white;
+  background: #7c3aed4d;
+  color: #ffffff;
   padding: 12px;
   border-radius: 8px;
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #2563eb;
+  background-color: #7c3aed;
 }
 .success-message {
-  color: #22c55e;
+  color: #800080;
 }
 
 .icon-box {
   width: 45px;
   height: 45px;
   border-radius: 10px;
-  background-color: #3b82f626;
+  background-color: #161616;
   color: #3b82f6;
   display: flex;
   align-items: center;
