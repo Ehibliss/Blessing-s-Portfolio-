@@ -1,20 +1,35 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-# If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-# Blessing-s-Portfolio-
+🌐 Blessing’s Portfolio
 
 A responsive front-end portfolio showcasing my projects, skills, and experience as a Front-End Developer and UI/UX Designer.
+
+👩🏽‍💻 About Me:
+
+I am a Front-End Developer passionate about building clean, responsive, and user-friendly web interfaces. I enjoy turning ideas into real-world projects using modern web technologies.
+
+I also have a background in UI/UX design, which helps me create visually appealing and user-centered designs.
+
+🚀 Tech Stack
+React
+Vite
+HTML
+CSS
+JavaScript
+Git & GitHub
+🎯 Features:
+Fully responsive design (mobile, tablet, desktop)
+Clean UI/UX design
+Smooth navigation
+Projects showcase section
+Contact section
+📸 Live Preview:
+
+👉 [https://blessingehi.netlify.app/]
+
+📁 Project Purpose:
+
+This portfolio was built to showcase my skills, projects, and growth as a developer while applying for internship and junior front-end roles.
+
+📬 Contact
+Email: ochemeblessingehi@gmail.com
+GitHub: https://github.com/Ehibliss
+LinkedIn: https://www.linkedin.com/in/ocheme-blessing-ehi-320b76321/
