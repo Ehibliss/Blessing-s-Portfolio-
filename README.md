@@ -25,7 +25,7 @@ Contact section
 
 👉 [https://blessingehi.netlify.app/]
 
-📁 Project Purpose:
+📁The Project Purpose:
 
 This portfolio was built to showcase my skills, projects, and growth as a developer while applying for internship and junior front-end roles.
 
