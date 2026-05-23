@@ -1,4 +1,8 @@
 import "./Skills.css";
+import Design from "../../assets/design.png";
+import Styling from "../../assets/styling.png";
+import Code from "../../assets/code.png";
+import JSX from "../../assets/javascript-react.png";
 function Skills() {
   return (
     <>
@@ -15,7 +19,7 @@ function Skills() {
           <div className="skills-cards">
             <div className="skill-content">
               <div className="skill-icons">
-                <img src="/code.png" alt="" />
+                <img src={Code} alt="coding" />
               </div>
               <h3 className="Skill-title">Front-end Frameworks</h3>
               <ul>
@@ -25,7 +29,7 @@ function Skills() {
             </div>
             <div className="skill-content">
               <div className="skill-icons">
-                <img src="/javascript-react.png" alt="" />
+                <img src={JSX} alt="JSX" />
               </div>
               <h3 className="Skill-title">Programming Languages</h3>
               <ul>
@@ -35,7 +39,7 @@ function Skills() {
             </div>
             <div className="skill-content">
               <div className="skill-icons">
-                <img src="/styling.png" alt="" />
+                <img src={Styling} alt="" />
               </div>
               <h3 className="Skill-title">Styling & Layout</h3>
 
@@ -48,7 +52,7 @@ function Skills() {
             </div>
             <div className="skill-content">
               <div className="skill-icons">
-                <img src="/design.png" alt="" />
+                <img src={Design} alt="Design" />
               </div>
               <h3 className="Skill-title">Design Tools</h3>
               <ul>

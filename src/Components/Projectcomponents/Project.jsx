@@ -1,5 +1,9 @@
 import React from "react";
 import "./Project.css";
+import Hubspot from "../../assets/hubspotclone.png";
+import Planet from "../../assets/planet.png";
+import Calculator from "../../assets/calculator.png";
+import Gridpainting from "../../assets/gridpainting1.png";
 function Project() {
   return (
     <>
@@ -12,10 +16,50 @@ function Project() {
               experience in web and mobile development.
             </p>
           </div>
+
           <div className="featured-project">
             <div className="Project-cards">
               <div className="project-image">
-                <img src="/planet.png" alt="planet" width={629} height={480} />
+                <img src={Hubspot} alt="planet" />
+              </div>
+              <div className="project-content">
+                <h2>Hubspot Clone Project</h2>
+                <p>
+                  A responsive clone of the HubSpot page built to improve my
+                  frontend development and UI recreation skills. The project
+                  focuses on recreating a real-world website layout with
+                  attention to responsiveness, spacing, typography, and reusable
+                  components.
+                </p>
+                <div className="card-info">
+                  <div className="tech-stack">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>CSS</span>
+                    <span>Netlify</span>
+                    <span>GitHub</span>
+                  </div>
+                  <div className="btn">
+                    <a
+                      href="https://blisshubspotclone.netlify.app/"
+                      className="btn-primary"
+                    >
+                      View Live
+                    </a>
+                    <a
+                      href="https://github.com/Ehibliss/Hubspot-Clone.git"
+                      className="btn-secondary"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="Project-cards">
+              <div className="project-image">
+                <img src={Planet} alt="planet" />
               </div>
               <div className="project-content">
                 <h2>Planet Collaboration Project</h2>
@@ -28,9 +72,10 @@ function Project() {
                   <div className="tech-stack">
                     <span>React</span>
                     <span>CSS</span>
+                    <span>JavaScript</span>
                     <span>GitHub</span>
                   </div>
-                  <div className="buttons">
+                  <div className="btn">
                     <a href="#" className="btn-primary">
                       View Live
                     </a>
@@ -41,9 +86,46 @@ function Project() {
                 </div>
               </div>
             </div>
+
             <div className="Project-cards">
               <div className="project-image">
-                <img src="/gridpainting1.png" alt="planet" />
+                <img src={Calculator} alt="Calculator" />
+              </div>
+              <div className="project-content">
+                <h2>Calculator App</h2>
+                <p>
+                  A functional calculator application built with React to
+                  practice state management, event handling and component-based
+                  architecture.
+                </p>
+                <div className="card-info">
+                  <div className="tech-stack">
+                    <span>React</span>
+                    <span>JavaSript</span>
+                    <span>CSS</span>
+                    <span>GitHub</span>
+                  </div>
+                  <div className="btn">
+                    <a
+                      href="https://blisscalculator.netlify.app/"
+                      className="btn-primary"
+                    >
+                      View Live
+                    </a>
+                    <a
+                      href="https://github.com/Ehibliss/React-calculator.git"
+                      className="btn-secondary"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="Project-cards">
+              <div className="project-image">
+                <img src={Gridpainting} alt="Grid painting" />
               </div>
               <div className="project-content">
                 <h2>Grid Painting</h2>
@@ -57,7 +139,7 @@ function Project() {
                     <span>CSS</span>
                     <span>GitHub</span>
                   </div>
-                  <div className="buttons">
+                  <div className="btn">
                     <a
                       href="https://ehibliss.github.io/Grid-painting-2/"
                       className="btn-primary"

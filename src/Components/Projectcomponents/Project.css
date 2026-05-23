@@ -87,12 +87,17 @@ img {
   margin-right: 10px;
   font-size: 12px;
 }
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .btn-primary {
   background-color: #7c3aed4d;
   color: white;
   padding: 10px 15px;
   border-radius: 10px;
-  margin-right: 10px;
 }
 
 .btn-secondary {

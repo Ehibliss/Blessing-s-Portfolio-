@@ -113,6 +113,8 @@ button {
     align-items: flex-start;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 100px;
+    margin: 20px;
+    margin-top: 5rem;
   }
   .Home-page-content {
     flex-direction: column;

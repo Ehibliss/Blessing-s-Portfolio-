@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import Logo from "../../assets/logo.png";
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -7,7 +8,7 @@ function Header() {
       <header>
         <div className="header-container">
           <div className="logo">
-            <img src="/logo.png" alt="brand logo" className="bliss-log" />
+            <img src={Logo} alt="brand logo" className="bliss-log" />
           </div>
 
           <div
