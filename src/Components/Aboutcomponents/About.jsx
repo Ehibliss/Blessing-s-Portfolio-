@@ -1,5 +1,9 @@
 import React from "react";
 import "./About.css";
+import Pix from "../../assets/pixijs.png";
+import Users from "../../assets/user.png";
+import Performance from "../../assets/light-bulb.png";
+import Code from "../../assets/code.png";
 function About() {
   return (
     <>
@@ -31,7 +35,7 @@ function About() {
           <div className="About-container">
             <div className="About-content">
               <div className="about-icon">
-                <img src="/code.png" alt="code icon" />
+                <img src={Code} alt="code icon" />
               </div>
               <h3 className="About-heading">Clean code</h3>
               <p>
@@ -42,7 +46,7 @@ function About() {
             </div>
             <div className="About-content">
               <div className="about-icon">
-                <img src="/light-bulb.png" alt="perfomance icon" />
+                <img src={Performance} alt="perfomance icon" />
               </div>
               <h3 className="About-heading">Performance</h3>
               <p>
@@ -53,7 +57,7 @@ function About() {
             </div>
             <div className="About-content">
               <div className="about-icon">
-                <img src="/pixijs.png" alt="" />
+                <img src={Pix} alt="pix" />
               </div>
               <h3 className="About-heading">Pixel Perfect</h3>
               <p>
@@ -63,7 +67,7 @@ function About() {
             </div>
             <div className="About-content">
               <div className="about-icon">
-                <img src="/users-2.png" alt="" />
+                <img src={Users} alt="User" />
               </div>
               <h3 className="About-heading">User Focused</h3>
               <p>

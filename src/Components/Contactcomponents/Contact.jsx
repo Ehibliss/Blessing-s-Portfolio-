@@ -1,6 +1,9 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import Email from "../../assets/email-white.png";
+import Locatin from "../../assets/location.png";
+import Phone from "../../assets/call.png";
 
 function Contact() {
   const form = useRef();
@@ -49,11 +52,7 @@ function Contact() {
               </p>
               <div className="contact-item">
                 <div className="icon-box">
-                  <img
-                    src="/email-white.png"
-                    alt="Email-icon"
-                    className="Contact-icon"
-                  />
+                  <img src={Email} alt="Email-icon" className="Contact-icon" />
                 </div>
                 <div className="contact-info">
                   <h4>Email</h4>
@@ -62,11 +61,7 @@ function Contact() {
               </div>
               <div className="contact-item">
                 <div className="icon-box">
-                  <img
-                    src="/call.png"
-                    alt="call-icon"
-                    className="Contact-icon"
-                  />
+                  <img src={Phone} alt="call-icon" className="Contact-icon" />
                 </div>
                 <div className="contact-info">
                   <h4>Phone</h4>
@@ -76,7 +71,7 @@ function Contact() {
               <div className="contact-item">
                 <div className="icon-box">
                   <img
-                    src="/location.png"
+                    src={Locatin}
                     alt="location-icon"
                     className="Contact-icon"
                   />

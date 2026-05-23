@@ -1,4 +1,8 @@
 import "./Home.css";
+import Bliss from "../../assets/bliss.jpg";
+import Github from "../../assets/github.png";
+import Linkedin from "../../assets/linkedin.png";
+import Twitter from "../../assets/twitter.png";
 export default function Home() {
   return (
     <section id="Home-page">
@@ -20,7 +24,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/github.png" alt="Github" />
+                <img src={Github} alt="Github" />
               </a>
             </div>
             <div className="social-container">
@@ -29,7 +33,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/linkedin.png" alt="LinkDin" />
+                <img src={Linkedin} alt="LinkDin" />
               </a>
             </div>
             <div className="social-container">
@@ -38,7 +42,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/twitter.png" alt="twitter" />
+                <img src={Twitter} alt="twitter" />
               </a>
             </div>
           </div>
@@ -47,13 +51,7 @@ export default function Home() {
           </div>
         </div>
         <div className="Home-page-image">
-          <img
-            src="/bliss.jpg"
-            alt="Blessing's image"
-            className="Home-image "
-            width={2105}
-            height={2585}
-          />
+          <img src={Bliss} alt="Blessing's image" className="Home-image " />
         </div>
       </div>
     </section>

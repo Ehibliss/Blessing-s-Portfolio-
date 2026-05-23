@@ -1,4 +1,7 @@
 import "./Footer.css";
+import Github from "../../assets/github.png";
+import Linkedin from "../../assets/linkedin.png";
+import Twitter from "../../assets/twitter.png";
 function Footer() {
   return (
     <>
@@ -41,7 +44,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/github.png" alt="Github" />
+                    <img src={Github} alt="Github" />
                   </a>
                 </div>
                 <div className="social-icon">
@@ -50,7 +53,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/linkedin.png" alt="LinkDin" />
+                    <img src={Linkedin} alt="LinkDin" />
                   </a>
                 </div>
 
@@ -60,7 +63,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/twitter.png" alt="Twitter" />
+                    <img src={Twitter} alt="Twitter" />
                   </a>
                 </div>
               </div>
